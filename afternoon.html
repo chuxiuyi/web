@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form表单新增控件</title>
+</head>
+<body>
+	<form action="" method="" name="">
+		<!-- 数字框 -->
+		<!-- 属性min最小值  属性max最大值  属性step每次跳跃间距 -->
+		<p><input type="number" min="10" max="40" step="5"></p>
+		<!-- 上传文件 -->
+		<p><input type="file"></p>
+		<!-- 颜色框 -->
+		<p><input type="color"></p>
+		<!-- 进度条/区域框 -->
+		<!-- 属性step每次跳跃间距 -->
+		<p><input type="range" step="10"></p>
+		<!-- 搜索框 -->
+		<p><input type="search"></p>
+		<!-- url链接地址 -->
+		<p><input type="url"></p>
+		<!-- 电子邮件 -->
+		<!-- 属性 multiple 代表可写多个邮箱,两者之间用英文逗号,隔开-->
+		<!-- 代表可写2个 -->
+		<p><input type="email" multiple="2"></p>
+		<!-- 代表可写很多个 -->
+		<p><input type="email" multiple></p>
+		<!-- 电话号码 -->
+		<!-- 属性正则表达式pattern -->
+		<!-- [\w]{11}代表数字字母下划线一共要写11个 -->
+		<p><input type="tel" pattern="[\w]{11}"></p>
+		<!-- 图片域 -->
+		<p><input type="image" width="400" height="400" src="../img/3.gif"></p>
+		<!-- 时间 -->
+		<!-- date年月日 -->
+		<p><input type="date"></p>
+		<!-- time时分 -->
+		<p><input type="time"></p>
+		<!-- month 年月-->
+		<p><input type="month"></p>
+		<!-- week 年周-->
+		<p><input type="week"></p>
+		<!-- 年月日时分 -->
+		<p><input type="datetime-local"></p>
+		 <!-- 年月日时分UTC时间 一般浏览器不好使 -->
+		<p><input type="datetime"></p>
+
+	<p><input type="submit"></p>
+	</form>
+</body>
+</html>

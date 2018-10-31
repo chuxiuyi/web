@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form表单</title>
+</head>
+<body>
+	<form action="" method="" name="">
+		<!-- 文本框 -->
+		<p><input type="text" required="required"></p>
+		<p><input type="text" value="名字" readonly="readonly"></p>
+		<p><input type="text" placeholder="名字"></p>
+		<!-- 密码框 -->
+		<p><input type="password" placeholder="密码" autofocus="autofocus"></p>
+		<!-- 按钮 -->
+		<!-- 提交按钮 -->
+		<p><input type="submit" value="提交按钮"></p>
+		<!-- 重置按钮 -->
+		<p><input type="reset" value="重置按钮"></p>
+		<!-- 普通按钮 -->
+		<p><input type="button" value="必须写value"></p>
+		<!-- 普通按钮2 可以跳转但是不提交信息-->
+		<p><button>特别按钮</button></p>
+		<!-- 单选按钮 -->
+		<label><input type="radio" name="sex">男生</label>
+		<label><input type="radio" name="sex">女生</label>
+		<label><input type="radio" name="sex">其他</label>
+		<hr>
+		<!-- 多选框 -->
+		<label><input type="checkbox" name="fruit" checked='checked'>草莓</label>
+		<label><input type="checkbox" name="fruit">火龙果</label>
+		<label><input type="checkbox" name="fruit">西瓜</label>
+		<label><input type="checkbox" name="fruit" disabled="disabled">柠檬</label>
+		<hr>
+		<!-- 下拉框 -->
+		<select>
+			<option>1995</option>
+			<option>1996</option>
+			<option>1997</option>
+			<option>1998</option>
+		</select>
+		<span>年</span>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<span>月</span>
+		<!-- 多行文本域 -->
+		<p><textarea name="" id="" cols="30" rows="10">能写字</textarea></p>
+	</form>
+</body>
+</html>
